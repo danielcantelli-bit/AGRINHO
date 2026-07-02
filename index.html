@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAgro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌱 EcoAgro</h1>
+    <p>Agro Forte, Futuro Sustentável</p>
+</header>
+
+<div class="container">
+
+    <h2>Calculadora de Sustentabilidade</h2>
+
+    <label>Área Plantada (hectares)</label>
+    <input type="number" id="area">
+
+    <label>Horas de Irrigação por Dia</label>
+    <input type="number" id="irrigacao">
+
+    <label>Área de Preservação?</label>
+    <select id="preservacao">
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+    </select>
+
+    <label>Usa Energia Solar?</label>
+    <select id="solar">
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+    </select>
+
+    <label>Faz Coleta Seletiva?</label>
+    <select id="coleta">
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+    </select>
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div id="resultado"></div>
+
+</div>
+
+<footer>
+    Desenvolvido para incentivar a agricultura sustentável 🌿
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
